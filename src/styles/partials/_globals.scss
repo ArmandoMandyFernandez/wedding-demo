@@ -1,0 +1,15 @@
+@use '../partials/mixins' as *;
+@use '../partials/variables' as *;
+@use '../partials/typography' as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'main', Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
